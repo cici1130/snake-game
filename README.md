@@ -2,30 +2,41 @@
 <img width="865" height="487" alt="3f1dd2c51c01510a0a57f0389b3ade66" src="https://github.com/user-attachments/assets/eef6e533-5a67-49a4-b42e-a03883bb8106" />
 
 Purpose of the software
- [1] We  use the agile model.
+[1] We  use the agile model.
+ 
   [2]reason
+ 
   1.As a foundation for subsequent flexible iterations to seize the market
 Choose agile development to leave sufficient space for the project's commercialization and market capture in the future. In the future, if we want to turn this game into a launchable product, we can quickly iterate the functions based on user feedback and respond more quickly to market demands.
+  
   2.The project is small in scale and has flexible requirements. Agile is more suitable.
 In the development process of games like Snake, it is easy to add ideas temporarily and modify details. The waterfall flow is linear and it is troublesome to make modifications later. However, agile allows for adjustments while working, which perfectly suits small projects.
+  
   3.Quick results can be seen, facilitating team collaboration and adjustments.
 Agile is developed in small iterations. We can quickly create the core "the snake can move and eat food" minimum viable version within a short period of time. Everyone can directly play and see the effect, and then gradually add functions and fix bugs. Unlike the waterfall flow, where the final product can only be seen after all stages are completed, problems in the middle are difficult to detect in time and it is not convenient for teammates to offer suggestions.
+ 
   4.Suitable for the development rhythm of small teams.
 Agile development is more flexible. It focuses on writing code and implementing functions. The development progress can be adjusted according to everyone's time, and there will be no situation where a certain part slows down the entire project.
+ 
   5.Convenient for rapid trial and error and optimizing the experience.
 The operation feel of the game, the speed of the snake's movement, and collision detection, etc., can only be known through actual play. Agile development allows us to test and fix bugs after completing one version.
+
  [3]target market
 The target market mainly consists of the following two aspects
+ 
   1.Casual game enthusiasts (core mass market)
 Players of all age groups, including students, office workers, and the elderly, without professional gaming skills, are seeking a low-barrier, stress-free entertainment experience.
 This is our core user group, with a large base and stable demands. We can make them aware of it through multiple channels such as mini-programs, short-video platforms, and web pages.
+ 
   2.Competitors driving the development of software (vertical advancement market)
 Game enthusiasts, participants in snake eating competitions, etc., have high game proficiency, and pursue operation, high scores, and innovative gameplay
 Break through the limitations of the game, even conduct secondary development based on the project, promoting the iteration of game functions and gameplay innovation
 The feedback from these users can help us quickly optimize the game experience, discover bugs, and at the same time, their competitive content can bring popularity to the product, attract more users, and promote the continuous development and ecological improvement of the software itself.
+
 1. Development Process & Project Timeline
 Throughout the entire process, we adopted the agile development approach, dividing the project into 4 iterative sprint phases. Each phase had clear timeframes, deliverables, and phased tasks, ensuring the smooth progress of the Snake Game development..
 Sprint 1: Requirement Analysis and Core Prototype Development
+
 Timeline: Day 1
 Core Tasks:
 1.1.1Confirm project requirements and core game theme: Single-player snake step game, including step-by-step movement logic, basic user interface framework design
@@ -35,6 +46,7 @@ Requirement specification document
 Functional prototype of the single-player "snake" game (including complete core logic)
 Basic user interface framework
 Sprint 2: Iteration of Dual Player Mode and Optimization of User Experience
+
 Timeline: Day 2
 Core Tasks:
 1.2.1Develop and launch the dual player battle mode, setting the P2 control logic (using the W, A, S, D keys for control)
@@ -47,6 +59,7 @@ Upgraded Collision Detection System
 Multi-input Operation Adaptation Module
 Test Report and Bug Fixes
 Sprint 3: Comprehensive Optimization of Scoring System and User Interface/User Experience
+
 Timeline: Day 3
 Core Task:
 1.3.1Develop a real-time scoring statistics system and dual leaderboards (single-player mode/dual-player mode)
@@ -59,6 +72,7 @@ Local data storage
 Responsive user interface design and adaptation plan
 Cross-device compatibility testing
 Sprint 4: Function Closure, Online Deployment and Experience Optimization
+
 Timeline: Day 4
 Core Tasks:
 1.4.1Upgrade the game control buttons (start/pause/restart/back)
@@ -70,6 +84,7 @@ The final version of the game, including all functions
 Online deployment link (on GitHub page)
 Complete test report
 Final project delivery package
+
 2.Members（Roles&Responsibilities&Portion）
 ZHANGXINYUN（p2421611）：Source codes（and data if it is applicable）    【100%】
 SHAOZHURUN（p2421468）：Documentation（Graphical Abstract&Purpose of the software）   【33%】
